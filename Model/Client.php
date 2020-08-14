@@ -14,7 +14,7 @@ class Client
     /**
      * @var string|null
      */
-    private $secret;
+    protected $secret;
 
     /**
      * @var RedirectUri[]
